@@ -1,0 +1,303 @@
+body{
+    margin-top: 20px;
+   margin-left: 20%;
+   margin-bottom: 20px;
+   background-color: rgb(23, 110, 23);
+    display: flex;
+   justify-content: center;
+}
+main{
+   flex-wrap: wrap;
+   margin-top: 20px;
+   
+}
+div{
+   border: 1px solid gray;
+   background-color: white;
+   float: left;
+   
+}
+p{
+   color: rgb(141, 128, 128);
+   margin-left: 10px;
+   margin-right: 10px;
+   font-family: sans-serif;
+   font-size: 12px;
+     
+}
+h3{
+   margin-left: 10px;
+   font-family: sans-serif;
+}
+img{
+   width: 100%;
+   height: 50%;
+}
+.t{
+   display: flex;
+   float: right;
+   width: 350px;
+   height: 100%;
+}
+.a{
+   height: 250px;
+   width: 620px;
+   margin-right: 20px;
+   margin-bottom: 20px;
+   
+}
+.b{
+   height: 350px;
+   width: 200px;
+   margin-right: 20px;
+   margin-bottom: 20px;
+}
+.c{
+   float: left;
+   position: absolute;
+   top: 290px;
+   width: 400px;
+   height: 520px;
+   margin-right: 20px;
+}
+.p{
+   width: 100%;
+   height: 40%;
+}
+.d{
+   width: 200px;
+   height: 260px;
+   margin-right: 20px;
+   margin-bottom: 20px;
+   position: relative;
+   top: 270px;
+   left: -445px;
+   
+}
+.e {
+   width: 200px;
+   height: 110px;
+   margin-right: 20px;
+   margin-bottom: 20px;
+   position: relative;
+   top: 548px;
+   left: -668px; 
+   
+}
+.f {
+   width: 200px;
+   height: 110px;
+   margin-right: 20px;
+   margin-bottom: 20px;
+   position: relative;
+   top: 235px;
+   left: -445px;
+   ;
+   
+}
+.g {
+   width: 200px;
+   height: 120px;
+   margin-right: 20px;
+   margin-bottom: 20px;
+   position: relative;
+   top: 235px;
+   left: -445px;
+   
+}
+.h {
+   width: 200px;
+   height: 145px;
+   margin-right: 20px;
+   margin-bottom: 20px;
+   position: relative;
+   top: 235px;
+   left: 642px;
+   
+}
+.i {
+   width: 200px;
+   height: 110px;
+   margin-right: 20px;
+   margin-bottom: 20px;
+   position: relative;
+   top: 270px;
+   left: 197px;
+   
+}
+.a:after{
+   content: "By Joe Smith";
+   color: gray;
+   margin-left: 5px;
+   position: relative;
+   top: 50px;
+   left: 10px;
+   font-size: 10px;
+}
+.a::before{
+   content: "42comments";
+   color: gray;
+   margin-left: 5px;
+   position: relative;
+   top: 207px;
+   left:190px;
+   font-size: 10px;
+}
+.b:after{
+   content: "By Joe Smith";
+   color: gray;
+   margin-left: 5px;
+   position: relative;
+   top: 20px;
+   left: 10px;
+   font-size: 10px;
+}
+.b::before{
+   content: "42comments";
+   color: gray;
+
+   position: absolute;
+   top: 342px;
+   left: 1150px;
+   font-size: 10px;
+   z-index: 100;
+}
+.c:after{
+   content: "By Joe Smith";
+   color: gray;
+   margin-left: 5px;
+   position: relative;
+   top: 90px;
+   left: 10px;
+   font-size: 10px;
+}
+.c::before{
+   content: "42comments";
+   color: gray;
+
+   position: absolute;
+   top: 500px;
+   left: 320px;
+   font-size: 10px;
+   z-index: 100;
+}
+.d:after{
+   content: "By Joe Smith";
+   color: gray;
+   margin-left: 5px;
+   position: relative;
+   top: 0px;
+   left: 0px;
+   font-size: 10px;
+
+}
+.d::before{
+   content: "42comments";
+   color: gray;
+
+   position: absolute;
+   top: 238px;
+   left: 130px;
+   font-size: 10px;
+   z-index: 100;
+}
+.e:after{
+   content: "By Joe Smith";
+   color: gray;
+   margin-left: 5px;
+   position: relative;
+   top: -10px;
+   left: 0px;
+   font-size: 10px;
+
+}
+.e::before{
+   content: "42comments";
+   color: gray;
+
+   position: absolute;
+   top: 95px;
+   left: 130px;
+   font-size: 10px;
+   z-index: 100;
+}
+.f:after{
+   content: "By Joe Smith";
+   color: gray;
+   margin-left: 5px;
+   position: relative;
+   top: -10px;
+   left: 0px;
+   font-size: 10px;
+
+}
+.f::before{
+   content: "42comments";
+   color: gray;
+
+   position: absolute;
+   top: 95px;
+   left: 130px;
+   font-size: 10px;
+   z-index: 100;
+}
+.g:after{
+   content: "By Joe Smith";
+   color: gray;
+   margin-left: 5px;
+   position: relative;
+   top: -10px;
+   left: 0px;
+   font-size: 10px;
+
+}
+.g::before{
+   content: "42comments";
+   color: gray;
+
+   position: absolute;
+   top: 95px;
+   left: 130px;
+   font-size: 10px;
+   z-index: 100;
+}
+.h:after{
+   content: "By Joe Smith";
+   color: gray;
+   margin-left: 5px;
+   position: relative;
+   top: 22px;
+   left: 0px;
+   font-size: 10px;
+
+}
+.h:before{
+   content: "42comments";
+   color: gray;
+
+   position: absolute;
+   top: 125px;
+   left: 130px;
+   font-size: 10px;
+   z-index: 100;
+}
+.i:after{
+   content: "By Joe Smith";
+   color: gray;
+   margin-left: 5px;
+   position: relative;
+   top: -10px;
+   left: 0px;
+   font-size: 10px;
+
+}
+.i:before{
+   content: "42comments";
+   color: gray;
+
+   position: absolute;
+   top: 93px;
+   left: 130px;
+   font-size: 10px;
+   z-index: 100;
+}
